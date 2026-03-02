@@ -1,5 +1,6 @@
-Customer Behavior Data Analytics Project
-Overview
+# Customer Behavior Data Analytics Project
+
+## Overview
 
 This project demonstrates an end-to-end data analytics workflow using Python, SQL, and Power BI.
 
@@ -7,219 +8,137 @@ The objective is to analyze customer shopping behavior data and generate actiona
 
 The project includes:
 
-Data loading and preprocessing in Python
+- Data loading and preprocessing in Python  
+- Exploratory Data Analysis (EDA)  
+- Data cleaning and transformation  
+- SQL analysis using PostgreSQL / MySQL / SQL Server  
+- Power BI dashboard development  
+- Business report creation  
+- Executive presentation using Gamma  
 
-Exploratory Data Analysis (EDA)
 
-Data cleaning and transformation
-
-SQL analysis using PostgreSQL / MySQL / SQL Server
-
-Power BI dashboard development
-
-Business report creation
-
-Executive presentation using Gamma
-
-Dataset
+## Dataset
 
 The dataset contains customer transaction and shopping behavior data, including:
 
-Customer information
-
-Product categories
-
-Purchase amount
-
-Transaction details
-
-Demographic attributes
+- Customer information  
+- Product categories  
+- Purchase amount  
+- Transaction details  
+- Demographic attributes  
 
 The dataset is used to analyze:
 
-Revenue performance
+- Revenue performance  
+- Customer segmentation  
+- Category-wise sales  
+- Purchase trends  
+- High-value customers  
 
-Customer segmentation
 
-Category-wise sales
+## Tools and Technologies
 
-Purchase trends
+**Programming**
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
 
-High-value customers
+**Database**
+- PostgreSQL  
+- MySQL  
+- SQL Server  
 
-Tools and Technologies
+**Query Language**
+- SQL  
 
-Programming
+**Visualization**
+- Power BI  
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+**Presentation**
+- Gamma (Executive PPT)
 
-Database
+**Environment**
+- Jupyter Notebook  
 
-PostgreSQL
 
-MySQL
+## Project Workflow
 
-SQL Server
+### 1. Data Loading
 
-Query Language
+- Imported dataset using Pandas  
+- Checked data types and structure  
+- Reviewed summary statistics  
 
-SQL
 
-Visualization
+### 2. Exploratory Data Analysis (EDA)
 
-Power BI
+- Univariate analysis  
+- Bivariate analysis  
+- Distribution plots  
+- Sales trend analysis  
+- Category performance evaluation  
 
-Presentation
 
-Gamma (Executive PPT)
+### 3. Data Cleaning
 
-Environment
+- Handled missing values  
+- Removed duplicates  
+- Standardized column names  
+- Converted data types  
+- Created calculated columns  
 
-Jupyter Notebook
 
-Project Workflow
-1. Data Loading
+### 4. SQL Analysis
 
-Imported dataset using Pandas
+- Loaded cleaned data into database  
+- Wrote SQL queries to calculate:
+  - Total revenue  
+  - Average order value  
+  - Monthly sales trend  
+  - Top customers  
+  - Category-wise revenue  
+  - Customer segmentation  
 
-Checked data types and structure
 
-Reviewed summary statistics
+### 5. Power BI Dashboard
 
-2. Exploratory Data Analysis (EDA)
+- Connected database to Power BI  
+- Built interactive dashboard  
+- Created KPI cards  
+- Designed filters and slicers  
+- Enabled drill-down analysis  
 
-Univariate analysis
 
-Bivariate analysis
+### 6. Reporting and Presentation
 
-Distribution plots
+- Prepared structured analytical report  
+- Created executive-level presentation using Gamma  
+- Provided business recommendations  
 
-Sales trend analysis
 
-Category performance evaluation
+## Dashboard Features
 
-3. Data Cleaning
+- Total Revenue KPI  
+- Total Customers  
+- Average Order Value  
+- Monthly Sales Trend  
+- Category-wise Sales Distribution  
+- Top 10 Customers  
+- Customer Segmentation  
 
-Handled missing values
+The dashboard allows filtering by date, category, and customer segment.  
 
-Removed duplicates
 
-Standardized column names
+## Key Insights
 
-Converted data types
+- Identified top-performing product categories  
+- Discovered high-value customer segments  
+- Detected seasonal sales patterns  
+- Provided recommendations for improving customer retention  
+- Suggested data-driven marketing strategies  
 
-Created calculated columns
 
-4. SQL Analysis
+## How to Run the Project
 
-Loaded cleaned data into database
+### Step 1: Clone the repository
 
-Wrote SQL queries to calculate:
-
-Total revenue
-
-Average order value
-
-Monthly sales trend
-
-Top customers
-
-Category-wise revenue
-
-Customer segmentation
-
-5. Power BI Dashboard
-
-Connected database to Power BI
-
-Built interactive dashboard
-
-Created KPI cards
-
-Designed filters and slicers
-
-Enabled drill-down analysis
-
-6. Reporting and Presentation
-
-Prepared structured analytical report
-
-Created executive-level presentation using Gamma
-
-Provided business recommendations
-
-Dashboard Features
-
-Total Revenue KPI
-
-Total Customers
-
-Average Order Value
-
-Monthly Sales Trend
-
-Category-wise Sales Distribution
-
-Top 10 Customers
-
-Customer Segmentation
-
-The dashboard allows filtering by date, category, and customer segment.
-
-Key Insights
-
-Identified top-performing product categories
-
-Discovered high-value customer segments
-
-Detected seasonal sales patterns
-
-Provided recommendations for improving customer retention
-
-Suggested data-driven marketing strategies
-
-How to Run the Project
-Step 1: Clone the repository
+```bash
 git clone <repository-link>
-Step 2: Install required Python libraries
-pip install pandas numpy matplotlib seaborn sqlalchemy psycopg2
-Step 3: Run Jupyter Notebook
-jupyter notebook
-Step 4: Set up the database
-
-Create database in PostgreSQL / MySQL / SQL Server
-
-Import cleaned dataset
-
-Execute SQL queries
-
-Step 5: Open Power BI
-
-Connect to database
-
-Load dataset
-
-Use the provided .pbix file
-
-Business Impact
-
-This project demonstrates the ability to:
-
-Work with real-world data
-
-Perform data cleaning and transformation
-
-Write optimized SQL queries
-
-Build interactive dashboards
-
-Translate analysis into business insights
-
-Communicate findings effectively
-
-Author
-
-Raj
-MBA (Finance)
-Aspiring Data Analyst | Financial Analyst
-Skills: Python, SQL, Power BI, Data Analytics
