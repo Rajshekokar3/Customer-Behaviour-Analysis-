@@ -1,125 +1,154 @@
-# Customer Behavior Data Analytics Project
+Customer Behavior Data Analytics Project
+Overview
 
-🔎 Overview
-This project focuses on analyzing customer behavior data using Python, SQL, and Power BI to generate actionable business insights.
+This project demonstrates an end-to-end data analytics workflow using Python, SQL, and Power BI.
 
-The complete workflow includes:
+The objective is to analyze customer shopping behavior data and generate actionable business insights to support data-driven decision-making.
 
-Loading and exploring the dataset in Python
+The project includes:
 
-Performing Exploratory Data Analysis (EDA)
+Data loading and preprocessing in Python
 
-Cleaning and transforming data
+Exploratory Data Analysis (EDA)
 
-Running SQL queries using PostgreSQL / MySQL / SQL Server
+Data cleaning and transformation
 
-Building an interactive Power BI dashboard
+SQL analysis using PostgreSQL / MySQL / SQL Server
 
-Creating a detailed analytical report
+Power BI dashboard development
 
-Presenting insights through a professional PPT (Gamma)
+Business report creation
 
+Executive presentation using Gamma
 
-# The goal of this project is to demonstrate end-to-end data analytics skills, from raw data to business decision-making insights.
+Dataset
 
-#  Dataset
+The dataset contains customer transaction and shopping behavior data, including:
 
-The dataset contains customer-level information such as:
-
-Customer demographics
-
-Purchase behavior
+Customer information
 
 Product categories
 
-Spending patterns
+Purchase amount
 
 Transaction details
 
-This dataset helps in understanding:
+Demographic attributes
+
+The dataset is used to analyze:
+
+Revenue performance
 
 Customer segmentation
 
-Revenue contribution
+Category-wise sales
 
-Purchase frequency
+Purchase trends
 
-Category-wise sales performance
+High-value customers
 
-# 🛠 Tools & Technologies Used
-Category	Tools
-Programming	Python (Pandas, NumPy, Matplotlib, Seaborn)
-Database	PostgreSQL / MySQL / SQL Server
-Query Language	SQL
-Data Visualization	Power BI
-Presentation	Gamma (PPT)
-Environment	Jupyter Notebook
-# ⚙️ Project Steps
-1️⃣ Data Loading
+Tools and Technologies
+
+Programming
+
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+
+Database
+
+PostgreSQL
+
+MySQL
+
+SQL Server
+
+Query Language
+
+SQL
+
+Visualization
+
+Power BI
+
+Presentation
+
+Gamma (Executive PPT)
+
+Environment
+
+Jupyter Notebook
+
+Project Workflow
+1. Data Loading
 
 Imported dataset using Pandas
 
-Checked structure, data types, and summary statistics
+Checked data types and structure
 
-2️⃣ Exploratory Data Analysis (EDA)
+Reviewed summary statistics
+
+2. Exploratory Data Analysis (EDA)
 
 Univariate analysis
 
 Bivariate analysis
 
-Distribution and trend visualization
+Distribution plots
 
-Revenue and category analysis
+Sales trend analysis
 
-3️⃣ Data Cleaning
+Category performance evaluation
+
+3. Data Cleaning
 
 Handled missing values
 
 Removed duplicates
 
+Standardized column names
+
 Converted data types
 
-Standardized column formats
+Created calculated columns
 
-4️⃣ SQL Analysis
+4. SQL Analysis
 
-Imported cleaned dataset into PostgreSQL / MySQL / SQL Server
+Loaded cleaned data into database
 
-Wrote SQL queries for:
+Wrote SQL queries to calculate:
 
-Total revenue calculation
+Total revenue
+
+Average order value
+
+Monthly sales trend
 
 Top customers
 
-Category-wise performance
-
-Monthly sales trends
+Category-wise revenue
 
 Customer segmentation
 
-5️⃣ Dashboard Development (Power BI)
+5. Power BI Dashboard
 
 Connected database to Power BI
 
-Created interactive visualizations
+Built interactive dashboard
 
-Designed KPI cards
+Created KPI cards
 
-Built slicers for filtering
+Designed filters and slicers
 
-Implemented drill-down features
+Enabled drill-down analysis
 
-6️⃣ Reporting & Presentation
+6. Reporting and Presentation
 
-Documented insights in structured report format
+Prepared structured analytical report
 
 Created executive-level presentation using Gamma
 
-Highlighted key business recommendations
+Provided business recommendations
 
-# 📊 Dashboard Highlights
-
-The Power BI dashboard includes:
+Dashboard Features
 
 Total Revenue KPI
 
@@ -127,50 +156,70 @@ Total Customers
 
 Average Order Value
 
-Category-wise Sales
-
 Monthly Sales Trend
+
+Category-wise Sales Distribution
 
 Top 10 Customers
 
 Customer Segmentation
 
-The dashboard is interactive and allows filtering by:
+The dashboard allows filtering by date, category, and customer segment.
 
-Category
+Key Insights
 
-Date
+Identified top-performing product categories
 
-Customer segment
+Discovered high-value customer segments
 
-# 📈 Key Results & Insights
+Detected seasonal sales patterns
 
-Identified top revenue-generating product categories
+Provided recommendations for improving customer retention
 
-Found high-value customer segments
+Suggested data-driven marketing strategies
 
-Detected seasonal sales trends
+How to Run the Project
+Step 1: Clone the repository
+git clone <repository-link>
+Step 2: Install required Python libraries
+pip install pandas numpy matplotlib seaborn sqlalchemy psycopg2
+Step 3: Run Jupyter Notebook
+jupyter notebook
+Step 4: Set up the database
 
-Highlighted opportunities for targeted marketing
+Create database in PostgreSQL / MySQL / SQL Server
 
-Recommended strategies to improve customer retention
+Import cleaned dataset
 
-This project demonstrates strong capabilities in:
+Execute SQL queries
 
-✔ Data Cleaning
-✔ Data Analysis
-✔ SQL Query Writing
-✔ Dashboard Design
-✔ Business Insight Generation
+Step 5: Open Power BI
 
-# 🎯 Business Impact
+Connect to database
 
-This project showcases the ability to:
+Load dataset
 
-Work with real-world datasets
+Use the provided .pbix file
 
-Transform raw data into business intelligence
+Business Impact
 
-Communicate insights effectively to stakeholders
+This project demonstrates the ability to:
 
-Deliver end-to-end data analytics solutions
+Work with real-world data
+
+Perform data cleaning and transformation
+
+Write optimized SQL queries
+
+Build interactive dashboards
+
+Translate analysis into business insights
+
+Communicate findings effectively
+
+Author
+
+Raj
+MBA (Finance)
+Aspiring Data Analyst | Financial Analyst
+Skills: Python, SQL, Power BI, Data Analytics
