@@ -1,6 +1,6 @@
-Customer Behavior Data Analytics Project
-🔎 Overview
+# Customer Behavior Data Analytics Project
 
+🔎 Overview
 This project focuses on analyzing customer behavior data using Python, SQL, and Power BI to generate actionable business insights.
 
 The complete workflow includes:
@@ -19,9 +19,10 @@ Creating a detailed analytical report
 
 Presenting insights through a professional PPT (Gamma)
 
-The goal of this project is to demonstrate end-to-end data analytics skills, from raw data to business decision-making insights.
 
-📂 Dataset
+# The goal of this project is to demonstrate end-to-end data analytics skills, from raw data to business decision-making insights.
+
+#  Dataset
 
 The dataset contains customer-level information such as:
 
@@ -45,7 +46,7 @@ Purchase frequency
 
 Category-wise sales performance
 
-🛠 Tools & Technologies Used
+# 🛠 Tools & Technologies Used
 Category	Tools
 Programming	Python (Pandas, NumPy, Matplotlib, Seaborn)
 Database	PostgreSQL / MySQL / SQL Server
@@ -53,7 +54,7 @@ Query Language	SQL
 Data Visualization	Power BI
 Presentation	Gamma (PPT)
 Environment	Jupyter Notebook
-⚙️ Project Steps
+# ⚙️ Project Steps
 1️⃣ Data Loading
 
 Imported dataset using Pandas
@@ -116,7 +117,7 @@ Created executive-level presentation using Gamma
 
 Highlighted key business recommendations
 
-📊 Dashboard Highlights
+# 📊 Dashboard Highlights
 
 The Power BI dashboard includes:
 
@@ -142,7 +143,7 @@ Date
 
 Customer segment
 
-📈 Key Results & Insights
+# 📈 Key Results & Insights
 
 Identified top revenue-generating product categories
 
@@ -162,7 +163,7 @@ This project demonstrates strong capabilities in:
 ✔ Dashboard Design
 ✔ Business Insight Generation
 
-🎯 Business Impact
+# 🎯 Business Impact
 
 This project showcases the ability to:
 
